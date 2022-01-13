@@ -6,9 +6,9 @@ Adafruit_ADS1115 ads1;
 Adafruit_ADS1115 ads2;
 #include <PubSubClient.h>
 
-const char* ssid = "inventeaza";
-const char* password =  "robo1234";
-const char* mqttServer = "192.168.0.161";
+const char* ssid = "WifiSSID";
+const char* password =  "WifiPWd";
+const char* mqttServer = "IpAddressMqttTinyAutomator";
 const int mqttPort = 1883;
 #define MQTT_PUB_TEMP "test-topic"
 unsigned long last_time = 0;
